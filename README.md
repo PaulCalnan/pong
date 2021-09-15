@@ -1,61 +1,43 @@
 
-# Tic-Tac-Toe
+# Pong
 
-My first project, created during my time at General Assembly.
-Given a week, our task was to create our own version of the classic game, Tic-Tac-Toe.
+Created from a Javascript tutorial, This is a re-creation of the classic game Pong.
+
+I couldn't resist, it was the first video game I have ever played on an Atari console hooked up to a black & white television.
+
+Using concepts such as Canvas API to generate the 2d objects and
+event listeners to track of ball and paddle movements, then re-draw canvas.
+The AI simply moves a paddle in relation to the ball position, but purposely lags a little to create easier player wins.
+
+This is a work in progress. I would like to implement the following features to more closely resemble the Atari version.
 
 ### Future features marked if implemented:
 
-- [x]  Reset Button
-- [x]  Score board
-- [x]  Player name input
-- [ ]  AI
+- [ ]  Sound
+- [x]  Paddle Toggle (Smaller paddle to increase difficulty)
+- [ ]  AI Speed ( Difficulty check boxes to increase AI accuracy )
 
 #### Built with:
 
  - Javascript
- - Jquery 3.6.0
  - HTML
  - CSS
 
-#### Known Bugs:
 
- First round (after refresh)...
 
- ```javascript
- if (winnerMessage == '') {
-   $('#next').text('Next player turn - '+ nextPlayer);
- }
- ```
- ...produces a missed <code>nextPlayer</code> count,\
- subsequent rounds on clicking <code>Reset</code> button execute as expected.
-
-This current version - Human vs Human, no AI.\
-Updated GIF below shows first round with missed next player count.\
-Proper count of <code>nextPlayer</code> matches up on reset to next round.
-##
-
-![game demo](/LatestTicTacToe.gif)
+![game demo](/pong_javascript.gif)
 
 
 ## Requirements
 
 - Internet browser - Preferably Chrome.
-- A second player?
 
 ## Installation
 
 ```
-$ git clone https://github.com/PaulCalnan/project0.git
-$ cd project0-main
+$ git clone https://github.com/PaulCalnan/pong.git
+$ cd pong
 $ open or double click index.html
 ```
 
 [Or play it right now here!.. ](https://paulcalnan.github.io/TicTacToe/)
-
-
-## Additional resources
-
-Learn to build your own here!..
-
-- [General Assembly Sydney](https://tinyurl.com/5xm6mun5)
