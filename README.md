@@ -14,7 +14,7 @@ This is a work in progress. I would like to implement the following features to 
 ### Future features marked if implemented:
 
 - [ ]  Sound
-- [x]  Paddle Toggle (Smaller paddle to increase difficulty)
+- [ ]  Paddle Toggle (Smaller paddle to increase difficulty)
 - [ ]  AI Speed ( Difficulty check boxes to increase AI accuracy )
 
 #### Built with:
