@@ -6,7 +6,7 @@ Created from a Javascript tutorial, This is a re-creation of the classic game Po
 I couldn't resist, it was the first video game I have ever played on an Atari console hooked up to a black & white television.
 
 Using concepts such as Canvas API to generate the 2d objects and
-event listeners to track of ball and paddle movements, then re-draw canvas.
+event listeners to keep track of ball and paddle movements to then constantly re-draw canvas.
 The AI simply moves a paddle in relation to the ball position, but purposely lags a little to create easier player wins.
 
 This is a work in progress. I would like to implement the following features to more closely resemble the Atari version.
