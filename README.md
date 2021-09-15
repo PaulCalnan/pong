@@ -40,4 +40,4 @@ $ cd pong
 $ open or double click index.html
 ```
 
-[Or play it right now here!.. ](https://paulcalnan.github.io/TicTacToe/)
+[Or play it right now here!.. ](https://still-wildwood-28159.herokuapp.com/)
